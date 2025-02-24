@@ -58,7 +58,7 @@ function App() {
                 />
               </label>
             </div>
-            <button type="submit">Show Locationss</button>
+            <button type="submit">Show Locations</button>
           </form>
         ) : (
           <div className="full-screen-map">
