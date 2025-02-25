@@ -4,17 +4,41 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: url("./background.jpg") center/cover no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(14px + 4vmin); /* Extra Large Base Text */
+  color: rgb(255, 255, 255);
 }
 
+/* Massive & Bold Heading */
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 5rem; /* Huge text */
+  font-weight: 900; /* Super bold */
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Bigger Labels */
+.location-form-container label {
+  font-size: 2rem; /* Large label text */
+  font-weight: bold;
+}
+
+/* Enlarged Input Fields */
+.location-form-container input {
+  font-size: 1.8rem; /* Extra large input text */
+  padding: 15px; /* Increased padding */
+  width: 100%;
+}
+
+/* Huge Button */
+.location-form-container button {
+  font-size: 2rem; /* Make button text bigger */
+  padding: 15px 30px; /* Bigger button size */
+  font-weight: bold;
 }
